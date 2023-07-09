@@ -1,20 +1,26 @@
+:root {
+    --main-color: #5AA9FF;
+    --high-color: #8D1F1F;
+    --back-color: #F3EED9;
+}
+
 * {
     padding: 0em;
     margin: 0em; 
 }
 
 body {
-    background-color: #282c31;
-    color: #CE4F4F;
+    background-color: var(--back-color);
+    color: var(--main-color);
 }
 
 b {
-    color: #FF7573;
+    color: var(--high-color);
 }
 
 h1 {
-    color: #282c31;
-    background-color: #FF7573;
+    color: var(--back-color);
+    background-color: var(--high-color);
     padding: .5rem;
 }
 
@@ -28,15 +34,17 @@ blockquote {
 }
 
 img {
-    border-color: #FF7573;
+    border-color: var(--high-color);
     border-style: solid;
     margin: .5rem;
 }
 
 button {
-    color: #282c31;
+    color: var(--back-color);
     font-weight: bold;
-    background-color: #CE4F4F;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    background-color: var(--main-color);
     border-radius: 1rem;
     border-style: none;
     height: 2rem;
@@ -45,5 +53,5 @@ button {
 }
 
 button:hover {
-    background-color: #FF7573;
+    background-color: var(--high-color);
 }
