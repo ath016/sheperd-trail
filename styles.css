@@ -12,6 +12,11 @@
 body {
     background-color: var(--back-color);
     color: var(--main-color);
+    background-image: url(./layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 b {
